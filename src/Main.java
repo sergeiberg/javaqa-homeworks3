@@ -4,14 +4,14 @@ public class Main {
         int balance = 100; //начальный счёт
         int rechange = 1900; //сумма пополнения
 
-        int newbalance = balance + rechange;
+        int newBalance = balance + rechange;
         int bonus = rechange / 100;
-        int bonusbalance = newbalance + bonus;
+        int bonusBalance = newBalance + bonus;
 
-        if (newbalance > 1000) {
-            System.out.println(bonusbalance);
+        if (newBalance > 1000) {
+            System.out.println(bonusBalance);
         } else {
-            System.out.println(newbalance);
+            System.out.println(newBalance);
         }
     }
 }
